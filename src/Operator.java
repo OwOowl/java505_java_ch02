@@ -20,6 +20,9 @@ public class Operator {
         c = 10 % 3;
         System.out.println("10 % 3 = " + c);
 
+
+
+        // 스캐너
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("정수를 입력하세요 : ");
@@ -36,7 +39,11 @@ public class Operator {
         scanner.close();
 
 
+
+
+
         System.out.println("\n-----문자열 연결 연산자-----\n");
+
 
         // 문자열 연결 연산자 +
         System.out.println("하나의 긴 문자열을 표현하기 위해서는 String 타입의 변수에 긴 문자열을 저장하여 출력");
@@ -70,6 +77,9 @@ public class Operator {
         // 연산자의 우선순위 때문에 왼쪽부터 연산하여 문자열과 숫자열(price)의 연산이 먼저 발생하고,
         // 이후에 문자열(price)과 숫자열(price2)의 연산이 추가 진행하여 ~65002000 원 의 결과가 출력
         System.out.println(menu + menu2 + price + price2 + "원");
+
+
+
 
 
 
@@ -108,6 +118,10 @@ public class Operator {
         System.out.println("현재 op의 값 : " + op);
         System.out.println("--op 실행 시 값 : " + --op);
         System.out.println("현재 op의 값 : " + op);
+
+
+
+
 
 
 
