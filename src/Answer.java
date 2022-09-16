@@ -189,6 +189,7 @@ public class Answer {
         if (second % 3 == 0) {
             count++;    3의 배수이면 변수 count값 1증가
         }
+        위 두개의 if문의 결과 count가 1이면 3,6,9 1개 포함, count가 2개면 2개포함.
 
         if (count == 1) {
             System.out.println("박수 짝");
