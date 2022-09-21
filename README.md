@@ -1,4 +1,4 @@
-# java505_java_ch02
+# java505_java_chap02
 자바 기초 2장
 
 2022-09-15
